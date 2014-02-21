@@ -1,5 +1,5 @@
-Gym Challengers
-===============
+#MOTIVATE
+=========
 
 Project Owners:
 - Elaine Chang
