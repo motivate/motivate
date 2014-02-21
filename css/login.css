@@ -1,0 +1,40 @@
+
+body{
+  background-color:gray;
+}
+h1{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+img{
+  margin-bottom: 15px;
+}
+
+.content{
+  margin-top: 30px;
+  position: relative;
+}
+
+.login-form{
+  text-align: center;
+  position: relative;
+}
+
+.clearfix{
+
+    font-size: 25px;
+}
+
+#signup{
+  margin-top: 15px;
+  font-family: Verdana;
+
+}
+
+#login{
+  margin-top: 15px;
+  font-family: Verdana;
+}
