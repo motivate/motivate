@@ -4,16 +4,109 @@
 		<meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="author" content="Kevin Chen">
+		<title> #Motivate - Progress! </title>
 
-		<title> Progress! </title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="progress.css">
+
+		<!-- place holders -->
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="scripts/progress.js"></script>
+        <!-- /end place holders -->
 	</head>
 
 	<body>
-		Hello, world!
+		<br/>
+		<nav class="navbar nav-default" role="navigation">
+            <div class="container-fluid">
+                <span class="glyphicon glyphicon-home icons"></span>
+                <span class="glyphicon glyphicon-cog pull-right icons"></span>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+        	<div class="row">
+        		<h1 class="text-center"> #MOTIVATE </h1>
+        	</div>
+        	<div class="row">
+        		<div class="col-md-4"> </div>
+        		<div class="col-md-4">
+        			<div class="container-fluid" id="progress-box">
+     					<img class="pull-left" src="http://bebalex.com/wp-content/uploads/2012/11/person_blank.png" alt="...">
+     					<h2 class="text-center"> <br/> Ted Wu </h2> <!-- needs to deal with super long names -->
+     					<br/>
+     					<h3 class="text-center"> Challenge Description </h3>
+						<ul class="list-group">
+						  <li class="list-group-item">
+						  	Run 3 miles
+							<div class="btn-group pull-right">
+							  <button type="button" class="btn btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">
+							    Update <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" role="menu">
+							    <li><a href="#">Action</a></li>
+							    <li><a href="#">Another action</a></li>
+							  </ul>
+							</div>
+						  </li>
+						  <li class="list-group-item">
+						  	Bench 100 lbs
+						  	<div class="btn-group pull-right">
+							  <button type="button" class="btn btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">
+							    Update <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" role="menu">
+							    <li><a href="#">Action</a></li>
+							    <li><a href="#">Another action</a></li>
+							  </ul>
+							</div>
+						  </li>
+						  <li class="list-group-item">
+						  	Go to the gym 4 times a week
+						  	<div class="btn-group pull-right">
+							  <button type="button" class="btn btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">
+							    Update <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" role="menu">
+							    <li><a href="#">Action</a></li>
+							    <li><a href="#">Another action</a></li>
+							  </ul>
+							</div>
+						  </li>
+						  <li class="list-group-item">
+						  	Do 100 pushups 
+						  	<div class="btn-group pull-right">
+							  <button type="button" class="btn btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">
+							    Update <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" role="menu">
+							    <li><a href="#">Action</a></li>
+							    <li><a href="#">Another action</a></li>
+							  </ul>
+							</div>
+						  </li>
+						</ul>
+						<div class="progress bottom-nav">
+						  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+						    <span class="sr-only">80% Complete</span>
+						  </div>
+						</div>
+        			</div>
+        		</div>
+        </div>	
+
+
+		<nav class="navbar nav-default navbar-fixed-bottom" id="bottom-nav" role="navigation">
+			<div class="container-fluid">
+				<button type="button" class="btn btn-danger btn-lg"> Back </button>
+				<button type="button" class="btn btn-success btn-lg pull-right"> Submit </button>
+				<button type="button" class="btn btn-warning btn-lg pull-right" id="revert"> Revert </button>
+			</div>
+		</nav>
+
 
 	</body>
 
