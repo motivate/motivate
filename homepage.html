@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>#Motivate</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href = "css/bootstrap.min.css" rel = "stylesheet">
-		<link href = ".css" rel = "stylesheet">
-	</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Homepage">
+        <meta name="author" content="Eric Tu">
+        <title> #Motivate </title>
 
-	<body>
-		<br>
-		<nav class="navbar nav-default" role="navigation">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/motivate.css">
+        <link rel="stylesheet" type="text/css" href="css/homepage.css">
+
+        <!-- JS/JQuery-->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+    </head>
+
+    <body>
+        <br>
+        <nav class="navbar nav-default" role="navigation">
             <div class="container-fluid">
-                <span class="glyphicon glyphicon-home icons"></span>
-                <span class="glyphicon glyphicon-cog pull-right icons"></span>
+                <a href="homepage.html">
+                    <span class="glyphicon glyphicon-home icons"></span>
+                </a>
+                <a href="settings.html">
+                    <span class="glyphicon glyphicon-cog pull-right icons"></span>
+                </a>
             </div>
         </nav>
+        <div class = "container text-center">
 
-		<div class = "container text-center">
 
+                <h1>#MOTIVATE</h1><br>
+                <a href = "challenge-friendsearch.html" class = "btn btn-danger" id = "buttonsize">CHALLENGE!</a><br><br>
+                <a href = "#" class = "btn btn-default" id = "buttonsize">ACCEPT/DECLINE REQUESTS</a><br><br>
+                <a href = "update.html" class = "btn btn-default" id = "buttonsize">UPDATE PROGRESS</a><br><br>
+                <a href = "#" class = "btn btn-default" id ="buttonsize">STATS</a>
 
-				<h1>#MOTIVATE</h1><br>
-				<a href = "challenge-friendsearch.html" class = "btn btn-danger" id = "buttonsize">CHALLENGE!</a><br><br>
-				<a href = "#" class = "btn btn-default" id = "buttonsize">ACCEPT/DECLINE REQUESTS</a><br><br>
-				<a href = "update.html" class = "btn btn-default" id = "buttonsize">UPDATE PROGRESS</a><br><br>
-				<a href = "#" class = "btn btn-default" id ="buttonsize">STATS</a>
+        </div>
 
-		</div>
-
-		<script src = "js/jquery.js"></script>
-		<script src = "js/bootstrap.js"></script>
-	</body>
+        <script src = "js/jquery.js"></script>
+        <script src = "js/bootstrap.js"></script>
+    </body>
 </html>
