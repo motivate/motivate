@@ -1,0 +1,64 @@
+<!.DOCTYPE html>
+<html>
+    <head> 
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <meta name="description" content="Challenge">
+        <meta name="author" content="Brittany Lee">
+        <title>Motivate - Challenge</title>
+
+        <!-- Bootstrap CSS -->
+        
+        <link href="css/bootstrap.min.css" rel ="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <!-- Own CSS -->
+        <link href="challenge-friendsearch.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+
+        <!-- Scripts -->
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                var availableTags = [
+                    "Ted", "Eric", "Kevin","Elaine"
+                ];
+                $("#searchBox").autocomplete({
+                source: availableTags
+                });
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <nav class="navbar nav-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar header nav-padding">
+                    <i class="glyphicon glyphicon-home large-icon"></i>
+                    <i class="glyphicon glyphicon-cog pull-right large-icon"></i>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h1 class="text-center">#MOTIVATE</h1>
+                    <h3 class="text-center">Challenge!</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <span class="text-left">WHO TO CHALLENGE:</span>
+                    <br>
+                    <br>
+                    <div class="right-inner-addon">
+                        <i class="glyphicon glyphicon-search"></i>
+                        <input type="text" class="form-control" id="searchBox" placeholder="Type a Friend's name"/>
+                    </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </body>
