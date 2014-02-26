@@ -1,4 +1,4 @@
-#:#MOTIVATE
+##MOTIVATE
 =========
 
 Project Owners:
