@@ -17,3 +17,7 @@ a:active {
 .icons {
 	font-size: 25px;
 }
+
+* {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
