@@ -12,3 +12,11 @@
 	padding: 10px 12px;
 	pointer-events: none;
 }
+
+.large-icon {
+	font-size: 2em;
+}
+
+.nav-padding {
+	padding-top: 10px;
+}
