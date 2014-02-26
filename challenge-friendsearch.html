@@ -14,6 +14,21 @@
 
         <!-- Own CSS -->
         <link href="challenge-friendsearch.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+
+        <!-- Scripts -->
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                var availableTags = [
+                    "Ted", "Eric", "Kevin","Elaine"
+                ];
+                $("#searchBox").autocomplete({
+                source: availableTags
+                });
+            });
+        </script>
 
     </head>
 
@@ -41,9 +56,8 @@
                     <br>
                     <div class="right-inner-addon">
                         <i class="glyphicon glyphicon-search"></i>
-                        <input type="text" class="form-control" placeholder="Type a Friend's name">
+                        <input type="text" class="form-control" id="searchBox" placeholder="Type a Friend's name"/>
                     </div>
-                </div>
                 <div class="col-md-4"></div>
             </div>
         </div>
