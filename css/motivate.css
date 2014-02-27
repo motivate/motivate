@@ -21,3 +21,17 @@ a:active {
 * {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
+
+.prof-pic {
+	width: 110px;
+	height: 110px;
+	border-radius: 4px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-fixed-bottom {
+	margin-bottom: 10px;
+}
