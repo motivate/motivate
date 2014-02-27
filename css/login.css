@@ -1,40 +1,35 @@
-
-body{
-  background-color:gray;
-}
-h1{
-  text-align: center;
-  font-family: Verdana;
-  font-size: 45px;
-  font-weight: bold;
+body {
+    background-color:gray;
 }
 
-img{
-  margin-bottom: 15px;
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
 }
 
-.content{
-  margin-top: 30px;
-  position: relative;
+img {
+    margin-bottom: 15px;
 }
 
-.login-form{
-  text-align: center;
-  position: relative;
+.content {
+    margin-top: 30px;
+    position: relative;
 }
 
-.clearfix{
+.login-form {
+    text-align: center;
+    position: relative;
+}
 
+.clearfix {
     font-size: 25px;
 }
 
-#signup{
-  margin-top: 15px;
-  font-family: Verdana;
-
+#signup {
+    margin-top: 15px;
 }
 
-#login{
-  margin-top: 15px;
-  font-family: Verdana;
+#login {
+    margin-top: 15px;
 }

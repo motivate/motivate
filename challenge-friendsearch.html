@@ -1,44 +1,37 @@
 <!.DOCTYPE html>
 <html>
     <head> 
-        <meta charset = "utf-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <meta name="description" content="Challenge">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Friend Search">
         <meta name="author" content="Brittany Lee">
-        <title>Motivate - Challenge</title>
+        <title> #Motivate - Challenge </title>
 
-        <!-- Bootstrap CSS -->
-        
-        <link href="css/bootstrap.min.css" rel ="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
-
-        <!-- Own CSS -->
-        <link href="challenge-friendsearch.css" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/motivate.css">
+        <link rel="stylesheet" type="text/css" href="css/challenge-friendsearch.css">
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 
-        <!-- Scripts -->
-        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-        <script type="text/javascript">
-            $(function() {
-                var availableTags = [
-                    "Ted", "Eric", "Kevin","Elaine"
-                ];
-                $("#searchBox").autocomplete({
-                source: availableTags
-                });
-            });
-        </script>
-
+        <!-- JS/JQuery-->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script type="text/javascript" src="js/challenge-fs.js"> </script>
     </head>
 
     <body>
+        <br/>
         <nav class="navbar nav-default" role="navigation">
             <div class="container-fluid">
-                <div class="navbar header nav-padding">
-                    <i href="homepage.html" class="glyphicon glyphicon-home large-icon"></i>
-                    <i class="glyphicon glyphicon-cog pull-right large-icon"></i>
-                </div>
+                <a href="homepage.html">
+                    <span class="glyphicon glyphicon-home icons"></span>
+                </a>
+                <a href="settings.html">
+                    <span class="glyphicon glyphicon-cog pull-right icons"></span>
+                </a>
             </div>
         </nav>
 
