@@ -12,7 +12,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/motivate.css">
-        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
 
         <!-- JS/JQuery-->
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
@@ -22,28 +22,33 @@
     </head>
 
     <body>
-      <div class="container" >
-        <div class="content" >
-          
-            <div class="login-form" >
-             <h1>#MOTIVATE</h1> 
-             <img src="http://imgs.abduzeedo.com/files/articles/logo-design-gym-fitness/1fddfd04c926df3f790f2ae1ca806123.png" alt="logo image" class="img-circle">
-              <form action="" class = "col-md-5 col-md-offset-4 ">
-                <fieldset>
-                  <div class="clearfix">
-                    <input type="text" placeholder="Username">
-                  </div>
-                  <div class="clearfix">
-                    <input type="password" placeholder="Password">
-                  </div>
-                   <a href="homepage.html">
-                    <button id = "login" class = "btn btn-primary btn-lg"  class="btn btn-success" type="submit">Log In</button> </a>
-                  <button  id = "signup"class = "btn btn-primary btn-lg"  class="btn btn-success" type="submit">Sign Up</button>
-                </fieldset>
-              </form>
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="text-center"> #MOTIVATE </h1>
             </div>
-          
+            <div class="row">
+                <div class="col-md-4"> </div>
+                <div class="col-md-4">
+                    <img src="http://imgs.abduzeedo.com/files/articles/logo-design-gym-fitness/1fddfd04c926df3f790f2ae1ca806123.png" alt="logo image" class="img-circle">
+                    <br/>
+                    <div class="login-form" >
+                        <form>
+                            <fieldset>
+                                <div class="clearfix">
+                                    <input type="text" placeholder="Username">
+                                </div>
+                                <div class="clearfix">
+                                    <input type="password" placeholder="Password">
+                                </div>
+                            </fieldset>
+                        </form>
+                        <a href="homepage.html">
+                            <button id = "login" class = "btn btn-primary btn-lg"  class="btn btn-success" type="submit">Log In</button>
+                        </a>
+                        <button  id = "signup"class = "btn btn-primary btn-lg"  class="btn btn-success" type="submit">Sign Up</button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div> <!-- /container -->
     </body>
 </html>

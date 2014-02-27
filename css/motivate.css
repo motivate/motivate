@@ -28,10 +28,15 @@ a:active {
 	border-radius: 4px;
 }
 
-.navbar {
+#top-nav {
 	margin-bottom: 0px;
 }
 
 .navbar-fixed-bottom {
 	margin-bottom: 10px;
 }
+
+#revert {
+	margin-right: 20px;
+}
+
