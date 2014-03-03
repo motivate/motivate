@@ -19,7 +19,6 @@ body {
     height: 100%;
     
 }
-
 .textbox {
     font-size: 1.5em;
 }
@@ -28,6 +27,10 @@ body {
     font-size: 2em;
 }
 
+#login {
+    font-size: 2em;
+    
+}
 
 
 p {
