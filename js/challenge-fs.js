@@ -2,7 +2,7 @@ $(document).ready(function() {
     var availableTags = [
         "Ted", "Eric", "Kevin","Elaine"
     ];
-    $("#searchBox").autocomplete({
+    $("#search-box").autocomplete({
     	source: availableTags
     });
 });
