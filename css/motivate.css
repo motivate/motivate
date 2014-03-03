@@ -29,7 +29,11 @@ a:active {
 }
 
 #top-nav {
+	padding-top: 15px;
+	padding-bottom: 15px;
 	margin-bottom: 0px;
+	vertical-align: middle;
+	background-color: #A8DACF;
 }
 
 .navbar-fixed-bottom {
@@ -39,4 +43,11 @@ a:active {
 #revert {
 	margin-right: 20px;
 }
+
+body {
+	background-color: #ECEEE1;
+}
+
+
+
 
