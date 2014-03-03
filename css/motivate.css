@@ -19,6 +19,10 @@ a:active {
 	color: #221E1F;
 }
 
+.navbar-fixed-bottom {
+	margin-bottom: 10px;
+}
+
 * {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
@@ -40,10 +44,6 @@ a:active {
 	margin-bottom: 0px;
 	vertical-align: middle;
 	background-color: #A8DACF;
-}
-
-.navbar-fixed-bottom {
-	
 }
 
 #revert {
