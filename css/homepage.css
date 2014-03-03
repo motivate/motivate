@@ -1,8 +1,26 @@
-#buttonsize {
+.buttonsize {
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom: 15px;
 	width: 250px;
 	height: 40px;
+	border: none;
+	background-color: #221E1F;
+}
+
+.buttonsize:hover {
+	background-color: #D8403A;
+}
+
+.btn-label {
+	color: #ECEEE1;
 }
 
 .btn{
 	font-weight: bold;
+}
+
+.logo {
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
