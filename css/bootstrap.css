@@ -279,11 +279,7 @@ html {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-<<<<<<< HEAD
   line-height: 1.42857143;
-=======
-  line-height: 1.428571429;
->>>>>>> ted
   color: #333;
   background-color: #fff;
 }
@@ -336,11 +332,7 @@ img {
   max-width: 100%;
   height: auto;
   padding: 4px;
-<<<<<<< HEAD
   line-height: 1.42857143;
-=======
-  line-height: 1.428571429;
->>>>>>> ted
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;

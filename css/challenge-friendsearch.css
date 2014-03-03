@@ -1,16 +1,17 @@
-.right-inner-addon {
-	position: relative;
+#search-button {
+	height:100%;
+	border-left-width:0;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
 }
 
-.right-inner-addon input {
-	padding-right: 30px;
+#search-box {
+	border-right-width:0;
+	box-shadow: none;
 }
 
-.right-inner-addon i {
-	position: absolute;
-	right: 0px;
-	padding: 10px 12px;
-	pointer-events: none;
+#search-box:focus {
+	border-color:#ccc;
 }
 
 .large-icon {
@@ -20,8 +21,3 @@
 .nav-padding {
 	padding-top: 10px;
 }
-
-a:link {color:#000000;}      /* unvisited link */
-a:visited {color:#000000;}  /* visited link */
-a:hover {color:#000000;}  /* mouse over link */
-a:active {color:#000000;}  /* selected link */

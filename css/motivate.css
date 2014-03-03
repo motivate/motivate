@@ -22,16 +22,25 @@ a:active {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> edfcadd563f657c8d7f9ec4424b0e8154101bc09
 #adc
 {
 	height: 150px;
 
-<<<<<<< HEAD
 }
-=======
+.prof-pic {
+	width: 110px;
+	height: 110px;
+	border-radius: 4px;
 }
->>>>>>> edfcadd563f657c8d7f9ec4424b0e8154101bc09
+
+#top-nav {
+	margin-bottom: 0px;
+}
+
+.navbar-fixed-bottom {
+	margin-bottom: 10px;
+}
+
+#revert {
+	margin-right: 20px;
+}
