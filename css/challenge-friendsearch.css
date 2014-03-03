@@ -24,10 +24,6 @@
 	padding-top: 10px;
 }
 
-#challegnge-cont {
-	margin-top: 50px;
-}
-
 .button-size {
 	padding-top:15px;
 	padding-bottom:15px;
@@ -41,18 +37,9 @@
 	background-color: #D8403A;
 }
 
-<<<<<<< HEAD
-.text-left {
-	font-size: 25px;
-}
-=======
-.btn-lg {
-	background-color: #A8DACF;
-}
-
 .list-group-item {
 	height:50px;
 	padding-top:15px;
 	padding-bottom:15px;
 }
->>>>>>> 3c956741fe94a0e9b40d83344902b2db5474c10e
+
