@@ -43,11 +43,14 @@ a:active {
 }
 
 .navbar-fixed-bottom {
-	background-color: #ECEEE1	
+	background-color: #ECEEE1;
+	border: none;	
 }
 
 .navbar-static-bottom {
-	background-color: #ECEEE1	
+	margin-top: 30px;
+	background-color: #ECEEE1;
+	border: none;	
 }
 
 #revert {
