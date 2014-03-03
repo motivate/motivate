@@ -5,8 +5,12 @@ h1 {
 
 h3 {
     color: #D8403A;
-    font-size: 3em;
+    font-size: 32px;
     text-align: center;
+}
+.icons {
+    font-size: 32px;
+    color: #221E1F;
 }
 
 body {
