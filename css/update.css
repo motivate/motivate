@@ -9,18 +9,9 @@
 
 #text {
 	display: inline-block;
-}
-
-.btn:hover {
-	background-color: #D8403A;
 	color: #ECEEE1;
 }
 
 .btn:hover .prof-pic {
 	border-color: #D8403A;
-}
-
-.btn {
-	background-color: #221E1F;
-	color: #ECEEE1;
 }

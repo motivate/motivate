@@ -35,7 +35,6 @@
 	width: 100%;
 	height: 50px;
 	border: none;
-	background-color: #221E1F;
 }
 
 .button-size:hover {
@@ -44,8 +43,4 @@
 
 .text-left {
 	font-size: 25px;
-}
-
-.btn-lg {
-	background-color: #A8DACF;
 }
