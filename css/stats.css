@@ -1,0 +1,23 @@
+#userpic {
+	margin-top: 15px;
+}
+
+#user-stats {
+	background-color: #221E1F;
+}
+
+.stats-text {
+	color:#ECEEE1;
+}
+
+#stats-table {
+	background-color:white;
+}
+
+th {
+	color:#D8403A;
+}
+
+.vert-align {
+	top:20px;
+}
