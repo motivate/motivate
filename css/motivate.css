@@ -88,6 +88,16 @@ body {
 	color: #ECEEE1;
 }
 
+.btn-selected:focus {
+	background-color: #D8403A;
+	color: #ECEEE1;
+}
+
+.btn-selected:hover {
+	background-color: #D8403A;
+	color: #ECEEE1;
+}
+
 .text-left {
 	font-size: 25px;
 }
@@ -103,6 +113,7 @@ body {
 
 .btn-blk:hover {
 	background-color: #D8403A;
+	color: #ECEEE1;
 }
 
 #white-text {
