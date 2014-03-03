@@ -1,15 +1,12 @@
 h1 {
-
-     color: #D8403A;
-     font-size: 50px;
-     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    color: #D8403A;
+    font-size: 50px;
 }
 
 h3 {
     color: #D8403A;
-     font-size: 3em;
-     text-align: center;
-     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 3em;
+    text-align: center;
 }
 
 body {
@@ -17,8 +14,8 @@ body {
     background-color: #ECEEE1;
     width: 100%;
     height: 100%;
-    
 }
+
 .textbox {
     font-size: 1.5em;
 }
@@ -27,18 +24,10 @@ body {
     font-size: 2em;
 }
 
-#login {
-    font-size: 2em;
-    
-}
-
-
 p {
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     color: #221E1F;
     font-size: 20px;
 }
-
 
 hr {
     display: block;
@@ -48,8 +37,6 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
-
 
 audio,
 canvas,
@@ -62,5 +49,16 @@ video {
     width: 440px;
     margin-bottom:20px;
 }
+
+#login {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 12px;
+    margin-right: 15px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    background-color: #D8403A;
+    border-color: #D8403A;    
+}
+
 
 

@@ -2501,11 +2501,7 @@ select[multiple].input-lg {
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
-<<<<<<< HEAD
   line-height: 1.42857143;
-=======
-  line-height: 1.428571429;
->>>>>>> ted
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -2513,10 +2509,7 @@ select[multiple].input-lg {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-<<<<<<< HEAD
-=======
        -o-user-select: none;
->>>>>>> ted
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
