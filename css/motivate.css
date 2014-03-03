@@ -21,6 +21,7 @@ a:active {
 
 * {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	color: #221E1F;
 }
 
 #adc
@@ -43,7 +44,11 @@ a:active {
 }
 
 .navbar-fixed-bottom {
-	
+	background-color: #ECEEE1	
+}
+
+.navbar-static-bottom {
+	background-color: #ECEEE1	
 }
 
 #revert {
@@ -53,6 +58,29 @@ a:active {
 
 body {
 	background-color: #ECEEE1;
+}
+
+.logo {
+	margin-top: 10px;
+	width:100%;
+}
+
+.buttonsize {
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom: 15px;
+	width: 250px;
+	height: 50px;
+	border: none;
+	background-color: #221E1F;
+}
+
+.buttonsize:hover {
+	background-color: #D8403A;
+}
+
+.btn-label {
+	color: #ECEEE1;
 }
 
 
