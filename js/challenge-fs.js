@@ -5,4 +5,8 @@ $(document).ready(function() {
     $("#search-box").autocomplete({
     	source: availableTags
     });
+
+    $(".btn-blk").click(function() {
+    	$(this).toggleClass("btn-selected btn-blk")
+    });
 });
