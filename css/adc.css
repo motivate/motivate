@@ -3,8 +3,8 @@
 }
 
 .btn-blk:focus {
-	background-color: #221E1F;
-	color: #ECEEE1;
+	background-color: #595959;
+	color: #FFFFFF;
 }
 
 .btn-blk {
@@ -15,4 +15,8 @@
 .btn-selected {
 	border-radius: 0px;
 	width: 80px;
+}
+
+.btn-blue {
+	color: #000;
 }

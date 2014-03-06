@@ -16,13 +16,13 @@ a:active {
 
 .icons {
 	font-size: 25px;
-	color: #221E1F;
+	color: #FFFFFF;
 }
 
 
 * {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-	color: #221E1F;
+	color: #595959;
 }
 
 .prof-pic {
@@ -30,7 +30,7 @@ a:active {
 	height: 110px;
 	border-radius: 65px;
 	border-width: 2px;
-	border-color: #ECEEE1;
+	border-color: #FFFFFF;
 	border-style: solid;
 }
 
@@ -39,17 +39,18 @@ a:active {
 	padding-bottom: 15px;
 	margin-bottom: 0px;
 	vertical-align: middle;
-	background-color: #A8DACF;
+	background-color: #27596A;
+	border-radius: 0px;
 }
 
 .navbar-fixed-bottom {
-	background-color: #ECEEE1;
+	background-color: #FFFFFF;
 	border: none;	
 }
 
 .navbar-static-bottom {
 	margin-top: 30px;
-	background-color: #ECEEE1;
+	background-color: #FFFFFF;
 	border: none;	
 }
 
@@ -59,7 +60,7 @@ a:active {
 
 
 body {
-	background-color: #ECEEE1;
+	background-color: #FFFFFF;
 }
 
 .logo {
@@ -78,22 +79,22 @@ body {
 }
 
 .btn-label {
-	color: #ECEEE1;
+	color: #FFFFFF;
 }
 
 .btn-selected {
-	background-color: #D8403A;
-	color: #ECEEE1;
+	background-color: #8C1945;
+	color: #FFFFFF;
 }
 
 .btn-selected:focus {
-	background-color: #D8403A;
-	color: #ECEEE1;
+	background-color: #8C1945;
+	color: #FFFFFF;
 }
 
 .btn-selected:hover {
-	background-color: #D8403A;
-	color: #ECEEE1;
+	background-color: #8C1945;
+	color: #FFFFFF;
 }
 
 .text-left {
@@ -101,24 +102,24 @@ body {
 }
 
 .btn-blue {
-	background-color: #A8DACF;
+	background-color: #27596A;
 }
 
 .btn-blk {
-	background-color: #221E1F;
-	color: #ECEEE1;
+	background-color: #595959;
+	color: #FFFFFF;
 }
 
 .btn-blk:hover {
-	background-color: #D8403A;
-	color: #ECEEE1;
+	background-color: #8C1945;
+	color: #FFFFFF;
 }
 
 .btn-blk:focus {
-	background-color: #221E1F;
-	color: #ECEEE1;
+	background-color: #595959;
+	color: #FFFFFF;
 }
 
 #white-text {
-	color: #ECEEE1;
+	color: #FFFFFF;
 }
