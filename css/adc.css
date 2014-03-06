@@ -1,5 +1,5 @@
 #adc-item {
-	height: 120px;
+	height: 175px;
 }
 
 .btn-blk:focus {
@@ -8,11 +8,11 @@
 }
 
 .btn-blk {
-	border-radius: 0px;
+	border-radius: 3px;
 	width: 80px;
 }
 
 .btn-selected {
-	border-radius: 0px;
+	border-radius: 3px;
 	width: 80px;
 }
