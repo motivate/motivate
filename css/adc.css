@@ -1,3 +1,18 @@
 #adc-item {
-	height: 150px;
+	height: 120px;
+}
+
+.btn-blk:focus {
+	background-color: #221E1F;
+	color: #ECEEE1;
+}
+
+.btn-blk {
+	border-radius: 0px;
+	width: 80px;
+}
+
+.btn-selected {
+	border-radius: 0px;
+	width: 80px;
 }

@@ -1,0 +1,16 @@
+.row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.login-form {
+    margin-top: 15px;
+}
+
+input {
+    width:60%;
+    height:50px;
+    margin-bottom: 15px;
+    box-shadow: none;
+}

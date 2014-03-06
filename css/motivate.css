@@ -16,21 +16,22 @@ a:active {
 
 .icons {
 	font-size: 25px;
+	color: #221E1F;
 }
+
 
 * {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	color: #221E1F;
 }
 
-#adc
-{
-	height: 150px;
-
-}
 .prof-pic {
 	width: 110px;
 	height: 110px;
-	border-radius: 4px;
+	border-radius: 65px;
+	border-width: 2px;
+	border-color: #ECEEE1;
+	border-style: solid;
 }
 
 #top-nav {
@@ -39,10 +40,18 @@ a:active {
 	margin-bottom: 0px;
 	vertical-align: middle;
 	background-color: #A8DACF;
+	border-radius: 0px;
 }
 
 .navbar-fixed-bottom {
-	
+	background-color: #ECEEE1;
+	border: none;	
+}
+
+.navbar-static-bottom {
+	margin-top: 30px;
+	background-color: #ECEEE1;
+	border: none;	
 }
 
 #revert {
@@ -54,5 +63,63 @@ body {
 	background-color: #ECEEE1;
 }
 
+.logo {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:100%;
+}
 
+.buttonsize {
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom: 15px;
+	width: 250px;
+	height: 50px;
+	border: none;
+}
 
+.btn-label {
+	color: #ECEEE1;
+}
+
+.btn-selected {
+	background-color: #D8403A;
+	color: #ECEEE1;
+}
+
+.btn-selected:focus {
+	background-color: #D8403A;
+	color: #ECEEE1;
+}
+
+.btn-selected:hover {
+	background-color: #D8403A;
+	color: #ECEEE1;
+}
+
+.text-left {
+	font-size: 25px;
+}
+
+.btn-blue {
+	background-color: #A8DACF;
+}
+
+.btn-blk {
+	background-color: #221E1F;
+	color: #ECEEE1;
+}
+
+.btn-blk:hover {
+	background-color: #D8403A;
+	color: #ECEEE1;
+}
+
+.btn-blk:focus {
+	background-color: #221E1F;
+	color: #ECEEE1;
+}
+
+#white-text {
+	color: #ECEEE1;
+}

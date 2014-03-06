@@ -3,13 +3,20 @@
 }
 
 #progress-box {
-	color: #31708f;
-	background-color: #d9edf7;
-	border-color: #bce8f1;
+	background-color: #A8DACF;
 	border-radius: 6px;
 }
 
 .prof-pic {
 	margin-top: 15px;
 	margin-left: 15px;
+}
+
+.input-group-addon {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.caret {
+	color: #ECEEE1;
 }

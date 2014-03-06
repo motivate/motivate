@@ -9,4 +9,13 @@
 
 #text {
 	display: inline-block;
+	color: #ECEEE1;
+}
+
+.btn:hover .prof-pic {
+	border-color: #D8403A;
+}
+
+.btn:focus .prof-pic {
+	border-color: #221E1F;
 }
