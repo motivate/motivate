@@ -30,7 +30,7 @@ $(document).ready(function() {
     	ads= [["off", "off"], ["off", "off"], ["off", "off"]];
     	var buttons =$("button");
     	for (var i=0; i < buttons.length; i++) {
-    		if ($(buttons[i]).hasClass("btn-ad")) {
+    		if ($(buttons[i]).hasClass("btn-selected")) {
     			$(buttons[i]).addClass("btn-blk");
     			$(buttons[i]).removeClass("btn-selected");
     		}
