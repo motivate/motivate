@@ -3,7 +3,7 @@
 }
 
 #progress-box {
-	background-color: #A8DACF;
+	background-color: #3E879E;
 	border-radius: 6px;
 }
 
@@ -12,11 +12,15 @@
 	margin-left: 15px;
 }
 
+.progress-bar {
+	background-color: #64C733;
+}
+
 .input-group-addon {
 	background-color: #fff;
 	border-color: #fff;
 }
 
 .caret {
-	color: #ECEEE1;
+	color: #F0F0F0;
 }

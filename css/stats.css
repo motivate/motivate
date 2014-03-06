@@ -3,11 +3,11 @@
 }
 
 #user-stats {
-	background-color: #221E1F;
+	background-color: #57524D;
 }
 
 .stats-text {
-	color:#ECEEE1;
+	color:#F0F0F0;
 }
 
 #stats-table {
@@ -15,7 +15,7 @@
 }
 
 th {
-	color:#D8403A;
+	color:#3E879E;
 }
 
 .vert-align {

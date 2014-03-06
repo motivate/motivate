@@ -1,21 +1,21 @@
 h1 {
-    color: #D8403A;
+    color: #3E879E;
     font-size: 50px;
 }
 
 h3 {
-    color: #D8403A;
+    color: #3E879E;
     font-size: 32px;
     text-align: center;
 }
 .icons {
     font-size: 32px;
-    color: #221E1F;
+    color: #64C733;
 }
 
 body {
 
-    background-color: #ECEEE1;
+    background-color: #F0F0F0;
     width: 100%;
     height: 100%;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 p {
-    color: #221E1F;
+    color: #64C733;
     font-size: 20px;
 }
 
@@ -55,13 +55,13 @@ video {
 }
 
 #login {
-    color: #fff;
+    color: #F0F0F0;
     font-size: 2em;
     margin-bottom: 12px;
     margin-right: 15px;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    background-color: #D8403A;
-    border-color: #D8403A;    
+    background-color: #3E879E;
+    border-color: #3E879E;    
 }
 
 .text-left {

@@ -3,8 +3,7 @@
 }
 
 .btn-blk:focus {
-	background-color: #221E1F;
-	color: #ECEEE1;
+	background-color: #64C733;
 }
 
 .btn-blk {
@@ -12,7 +11,14 @@
 	width: 80px;
 }
 
+.btn-blk:hover {
+	background-color: #64C733;
+}
+
 .btn-selected {
 	border-radius: 0px;
 	width: 80px;
 }
+
+
+
