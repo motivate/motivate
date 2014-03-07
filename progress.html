@@ -13,12 +13,24 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/motivate.css">
         <link rel="stylesheet" type="text/css" href="css/progress.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-multiselect.css"/>
 
         <!-- JS/JQuery-->
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
-        <script type="text/javascript" src="scripts/progress.js"></script>
+        <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
     </head>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.multiselect').multiselect({
+            buttonText: function() {
+                return 'Update <b class="caret"></b>'
+            },
+            buttonClass: 'btn btn-xs btn-blk'
+        });
+      });
+    </script>
 
     <body>
         <nav class="navbar nav-default" id="top-nav" role="navigation">
@@ -31,6 +43,8 @@
                 </a>
             </div>
         </nav>
+
+
 
         <div class="container-fluid">
             <div class="row">
@@ -47,118 +61,43 @@
                         <ul class="list-group">
                             <li class="list-group-item">
                                 Run 3 miles
-                                <div class="btn-group pull-right">
-                                    <button type="button" class="btn btn-xs btn-blk dropdown-toggle" data-toggle="dropdown">
-                                        Update <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li> 
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> Mile 1 </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> Mile 2 </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> Mile 3 </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                    </ul>
+                                <div class="pull-right">
+                                    <select class="multiselect" multiple="multiple">
+                                      <option value="Mile 1">Mile 1</option>
+                                      <option value="Mile 2">Mile 2</option>
+                                      <option value="Mile 3">Mile 3</option>
+                                    </select>
                                 </div>
                             </li>
                             <li class="list-group-item">
                                 Bench 100 lbs
-                                <div class="btn-group pull-right">
-                                    <button type="button" class="btn btn-xs btn-blk dropdown-toggle" data-toggle="dropdown">
-                                        Update <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><span class="input-group-addon">
-                                                <div class="pull-left"> Bench 100 lbs! </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span></li>
-                                    </ul>
+                                <div class="pull-right">
+                                    <select class="multiselect" multiple="multiple">
+                                      <option value="Benched 100 lbs!">Benched 100 lbs!</option>
+                                    </select>
                                 </div>
                             </li>
                             <li class="list-group-item">
                                 Workout 4x a week
-                                <div class="btn-group pull-right">
-                                    <button type="button" class="btn btn-xs btn-blk dropdown-toggle" data-toggle="dropdown">
-                                        Update <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li> 
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> Day 1 </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> Day 2 </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> Day 3 </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> Day 4 </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                    </ul>
+                                <div class="pull-right">
+                                    <select class="multiselect" multiple="multiple">
+                                      <option value="Day 1">Day 1</option>
+                                      <option value="Day 2">Day 2</option>
+                                      <option value="Day 3">Day 3</option>
+                                      <option value="Day 4">Day 4</option>
+                                    </select>
                                 </div>
                             </li>
                             <li class="list-group-item">
                                 Do 50 pushups 
-                                <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-xs btn-blk dropdown-toggle" data-toggle="dropdown">
-                                    Update <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" role="menu">
-                                        <li> 
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> 10 pushups </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> 20 pushups </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> 30 pushups! </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> 40 pushups!! </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="input-group-addon">
-                                                <div class="pull-left"> 50 pushups!!! </div>
-                                                <input class="pull-right" type="checkbox">
-                                            </span>
-                                        </li>
-                                </ul>
+                                <div class="pull-right">
+                                    <select class="multiselect" multiple="multiple">
+                                      <option value="10">10 pushups</option>
+                                      <option value="20">20 pushups!</option>
+                                      <option value="30">30 pushups!</option>
+                                      <option value="40">40 pushups!!</option>
+                                      <option value="50">50 pushups!!!</option>
+                                    </select>
                                 </div>
                             </li>
                         </ul>
