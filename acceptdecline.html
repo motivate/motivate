@@ -19,7 +19,11 @@
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/adc.js"></script>
 
+
     </head>
+    <script>
+            $('#myModal').modal(options)
+    </script>
 
     <body>
         <nav class="navbar nav-default" id="top-nav" role="navigation">
@@ -97,9 +101,36 @@
             </div>
         </div>
 
+         
+
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class = "modal-header">
+                        <h4 class = "text-center">Accept/Decline Confirmation</h4>
+                    </div>
+
+                    <div class = "modal-body text-center">
+                        <ul style = "list-style-type: none;">
+                            <li><span class="glyphicon glyphicon-ok"></span>You accepted Ted's challenge</li>
+                            <li><span class="glyphicon glyphicon-remove"></span>You declined Elaine's challenge</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>You accepted Kevin's challenge</li>
+                        </ul>
+
+                    </div>
+
+                    <div class = "modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Confirm</button>
+        <button type="button" class="btn btn-default">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class ="navbar navbar-default navbar-static-bottom">
             <div class="container-fluid">
-                <button type="button" class="btn btn-blue btn-lg pull-right" id="submit"> Submit </button>
+                <button type="button" class="btn btn-blue btn-lg pull-right" data-toggle="modal" 
+                data-target = ".bs-example-modal-lg" id="submit"> Submit </button>
                 <button type="button" class="btn btn-blue btn-lg pull-right" id="revert"> Revert </button>
             </div>
         </div>
