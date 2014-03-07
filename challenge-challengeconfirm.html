@@ -23,6 +23,9 @@
     </head>
 
     <body>
+    <script>
+    	$('#myModal').modal(options)
+    </script>
         <nav class="navbar nav-default" id="top-nav" role="navigation">
             <div class="container-fluid">
                 <a href="homepage.html">
@@ -57,11 +60,30 @@
                 </div>
         </div>  
 
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="text-center">Challenge Confirmation</h4>
+                    </div>
+
+                    <div class="modal-body text-center">
+                    	<p>You just challenged Ted to run 3 miles</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <a href = "homepage.html"><button type="button" class="btn btn-primary">Confirm</button></a>
+                        <button type="button" class="btn btn-default" data-dismiss = "modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <div class ="navbar navbar-default navbar-static-bottom">
             <div class="container-fluid">
                 <a href="challenge-createchallenge.html"><button type="button" class="btn btn-lg btn-blue"> Back </button></a>
-                <a href="homepage.html"><button type="button" class="btn btn-lg pull-right btn-blue"> Submit </button>
+                <button type="button" class="btn btn-lg pull-right btn-blue" data-toggle="modal" data-target = ".bs-example-modal-lg"> Submit </button>
             </div>
         </div>
 
