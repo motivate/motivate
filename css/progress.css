@@ -25,6 +25,6 @@
 	background-color: #3e879e;
 }
 
-select option.selected {
+select option.active {
     background-color: #3e879e;
 }
