@@ -68,6 +68,17 @@ video {
     font-size:15px;
 }
 
-#motivate-descr {
-    width:100%;
+#descr {
+    font-size:20px;
 }
+
+.carousel-control.right {
+    background-color:transparent;
+    background-image:none;
+}
+
+.carousel-control.left {
+    background-color:transparent;
+    background-image:none;
+}
+
