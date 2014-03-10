@@ -18,5 +18,9 @@
 }
 
 .caret {
-	color: #ECEEE1;
+	color: #F0F0F0;
+}
+
+.progress-bar {
+	background-color: #64C733
 }
