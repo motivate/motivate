@@ -16,13 +16,13 @@ a:active {
 
 .icons {
 	font-size: 25px;
-	color: #221E1F;
+	color: #36302B;
 }
 
 
 * {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-	color: #221E1F;
+	color: #36302B;
 }
 
 .prof-pic {
@@ -30,7 +30,7 @@ a:active {
 	height: 110px;
 	border-radius: 65px;
 	border-width: 2px;
-	border-color: #ECEEE1;
+	border-color: #F0F0F0;
 	border-style: solid;
 }
 
@@ -79,22 +79,22 @@ body {
 }
 
 .btn-label {
-	color: #ECEEE1;
+	color: #F0F0F0;
 }
 
 .btn-selected {
 	background-color: #64c733;
-	color: #ECEEE1;
+	color: #F0F0F0;
 }
 
 .btn-selected:focus {
 	background-color: #64c733;
-	color: #ECEEE1;
+	color: #F0F0F0;
 }
 
 .btn-selected:hover {
 	background-color: #64c733;
-	color: #ECEEE1;
+	color: #F0F0F0;
 }
 
 .text-left {
@@ -107,19 +107,19 @@ body {
 
 .btn-blk {
 	background-color: #36302b;
-	color: #ECEEE1;
+	color: #F0F0F0;
 }
 
 .btn-blk:hover {
 	background-color: #64c733;
-	color: #ECEEE1;
+	color: #F0F0F0;
 }
 
 .btn-blk:focus {
 	background-color: #36302b;
-	color: #ECEEE1;
+	color: #F0F0F0;
 }
 
 #white-text {
-	color: #ECEEE1;
+	color: #F0F0F0;
 }
