@@ -25,6 +25,26 @@
 	background-color: #3e879e;
 }
 
-select option.active {
-    background-color: #3e879e;
+.dropdown-menu > .active > a {
+    background-color: #fff;
+}
+
+.dropdown-menu > .active > a:hover {
+    background-color: #F0F0F0;
+}
+
+.dropdown-menu > .active > a:focus {
+    background-color: #F0F0F0;
+}
+
+.dropdown-menu > a {
+    background-color: #fff;
+}
+
+.dropdown-menu > a:hover {
+    background-color: #F0F0F0;
+}
+
+.dropdown-menu > a:focus {
+    background-color: #F0F0F0;
 }
