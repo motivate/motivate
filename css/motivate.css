@@ -39,18 +39,18 @@ a:active {
 	padding-bottom: 15px;
 	margin-bottom: 0px;
 	vertical-align: middle;
-	background-color: #A8DACF;
+	background-color: #3e879e;
 	border-radius: 0px;
 }
 
 .navbar-fixed-bottom {
-	background-color: #ECEEE1;
+	background-color: #f0f0f0;
 	border: none;	
 }
 
 .navbar-static-bottom {
 	margin-top: 30px;
-	background-color: #ECEEE1;
+	background-color: #f0f0f0;
 	border: none;	
 }
 
@@ -60,7 +60,7 @@ a:active {
 
 
 body {
-	background-color: #ECEEE1;
+	background-color: #f0f0f0;
 }
 
 .logo {
@@ -83,17 +83,17 @@ body {
 }
 
 .btn-selected {
-	background-color: #D8403A;
+	background-color: #64c733;
 	color: #ECEEE1;
 }
 
 .btn-selected:focus {
-	background-color: #D8403A;
+	background-color: #64c733;
 	color: #ECEEE1;
 }
 
 .btn-selected:hover {
-	background-color: #D8403A;
+	background-color: #64c733;
 	color: #ECEEE1;
 }
 
@@ -102,21 +102,21 @@ body {
 }
 
 .btn-blue {
-	background-color: #A8DACF;
+	background-color: #3e879e;
 }
 
 .btn-blk {
-	background-color: #221E1F;
+	background-color: #36302b;
 	color: #ECEEE1;
 }
 
 .btn-blk:hover {
-	background-color: #D8403A;
+	background-color: #64c733;
 	color: #ECEEE1;
 }
 
 .btn-blk:focus {
-	background-color: #221E1F;
+	background-color: #36302b;
 	color: #ECEEE1;
 }
 
