@@ -3,7 +3,7 @@
 }
 
 #progress-box {
-	background-color: #A8DACF;
+	background-color: #CDE5B7;
 	border-radius: 6px;
 }
 
@@ -22,5 +22,9 @@
 }
 
 .progress-bar {
-	background-color: #64C733
+	background-color: #3e879e;
+}
+
+select option.selected {
+    background-color: #3e879e;
 }
