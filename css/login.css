@@ -14,3 +14,7 @@ input {
     margin-bottom: 15px;
     box-shadow: none;
 }
+
+#fb {
+	border-radius: 2px;
+}
