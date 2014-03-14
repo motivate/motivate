@@ -68,11 +68,13 @@ video {
 .carousel-control.right {
     background-color:transparent;
     background-image:none;
+    width: 25px;
 }
 
 .carousel-control.left {
     background-color:transparent;
     background-image:none;
+    width: 25px;
 }
 
 .carousel-indicators .active{
@@ -90,3 +92,8 @@ video {
 .carousel-control .icon-next {
     color:#36302b;
 }
+
+.icon-next {
+    left: 50%;
+}
+
