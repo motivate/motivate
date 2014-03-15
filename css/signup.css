@@ -9,6 +9,7 @@ input {
 }
 
 .btn-fb {
+	color: white;
 	width: 60%;
 	display: block;
 	border: 1px solid #364b76;
@@ -23,6 +24,10 @@ input {
 	border-radius: 4px;
 	line-height: 43px;
 	text-indent: 35px;
+}
+
+.btn-fb:hover {
+	text-decoration: underline;
 }
 
 .btn-fb:before {
@@ -62,5 +67,19 @@ p {
 }
 
 #confirmation {
-                background-color: #E8E8E8;
+	background-color: #E8E8E8;
+}
+
+.done {
+	background-image: url(https://abs.twimg.com/a/1394742182/img/t1/accept.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 18px;
+}
+
+.error {
+	background-image: url(https://abs.twimg.com/a/1394742182/img/t1/error.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 18px;
 }
