@@ -34,6 +34,15 @@ a:active {
 	border-style: solid;
 }
 
+.nav-pic {
+	width: 29px;
+	height: 29px;
+	border-radius: 14px;
+}
+
+.nav-prof {
+}
+
 #top-nav {
 	padding-top: 15px;
 	padding-bottom: 15px;
